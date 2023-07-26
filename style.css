@@ -12,16 +12,14 @@ body{
 }
 
 header{
-    background-color: navy;
     display: flex;
     justify-content: space-between;
-    color: white;
     padding: 1rem;
     align-items: center;
 }
 
 header a{
-    color: white;
+    color: orangered;
     text-decoration: none;
     margin-right: 2rem;
     
@@ -34,7 +32,10 @@ header a{
 
 .right_side{
     display: flex;
-    gap: 10rem;
+}
+
+.left_side h2{
+    color: orangered;
 }
 
 header img{
@@ -45,6 +46,8 @@ header img{
 .about_us h2, .team h2{
     margin-bottom: 2rem;
     text-align: center;
+    color: navy;
+    font-size: xx-large;
 }
 
 .about_us, .team{
@@ -74,5 +77,63 @@ header img{
     text-align: center;
 }
 
+.kiosk img{
+width: 30%;
+height: 30%;
+}
+
+.kiosk{
+    display: flex;
+    align-items: center;
+    margin: 5rem;
+    margin-top: 2rem;
+    gap: 10rem;
+    width: 85%;
+    text-align: center;
+    color: navy;
+    border: 5px double orangered;
+    flex-direction: row-reverse;
 
 
+}
+
+.para{
+    width: 45%;
+    font-size: xx-large;
+}
+
+hr.last{
+    border-top: 10px double navy;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    margin: 0;
+}
+
+hr{
+    border-top: 10px double navy;
+}
+
+.paras{
+    color: navy;
+    font-size: x-large;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 5rem;
+    
+}
+
+.about_us h2{
+    color: orangered;
+}
+
+.paras p{
+    width: 60%;
+    align-self: center;
+}
+
+.team{
+    color: navy;
+}
