@@ -1,0 +1,78 @@
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+}
+
+body{
+    
+}
+
+header{
+    background-color: navy;
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    padding: 1rem;
+    align-items: center;
+}
+
+header a{
+    color: white;
+    text-decoration: none;
+    margin-right: 2rem;
+    
+}
+
+.left_side{
+    display: flex;
+    align-items: center;
+}
+
+.right_side{
+    display: flex;
+    gap: 10rem;
+}
+
+header img{
+    width: 5rem;
+    height: 5rem;
+}  
+
+.about_us h2, .team h2{
+    margin-bottom: 2rem;
+    text-align: center;
+}
+
+.about_us, .team{
+    margin: 3.5rem;
+}
+
+.about_us p{
+    margin-top: 0.5rem;
+
+}
+
+.images{
+   display: flex;
+   justify-content: space-around;
+}
+
+.images img{
+    height: 20rem;
+    border-radius: 5%;
+    border-bottom: 0.5rem double orangered;
+   
+}
+
+.one, .two, .three{
+    border: 0.5rem double orangered ;
+    border-radius: 10%;
+    text-align: center;
+}
+
+
+
