@@ -28,6 +28,9 @@ header a{
 
 .right_side{
     display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
 }
 
 .left_side h2{
@@ -89,8 +92,6 @@ header img{
     color: navy;
     border: 5px double orangered;
     flex-direction: row-reverse;
-
-
 }
 
 .para{
@@ -132,4 +133,15 @@ hr{
 
 .team{
     color: navy;
+}
+
+.siwes_home{
+    background-color: orangered;
+    color: white;
+    border-radius: 5rem;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 1rem;
 }
