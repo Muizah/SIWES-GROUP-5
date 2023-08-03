@@ -65,3 +65,34 @@ header a{
 .right_side img{
     width: 1rem;
 }
+
+@media screen and (max-width: 885px) {
+
+body{
+margin-left: 2rem;
+}
+
+header{
+    gap: 2rem;
+}
+
+.main {
+    top: 80%;
+    left: 100%;
+    transform: translate(-50%,-45%);
+    gap: 20rem;
+    flex-direction: column;
+}
+
+.left_side img{
+    width: 5rem;
+}
+
+.left_side h2{
+    font-size: x-small;
+}
+
+.right_side {
+    font-size: xx-small
+}
+}
