@@ -49,7 +49,7 @@ header img{
     font-size: xx-large;
 }
 
-.about_us, .team{
+.about_us{
     margin: 3.5rem;
 }
 
@@ -65,38 +65,47 @@ header img{
 
 .images img{
     height: 20rem;
-    border-radius: 5%;
-    border-bottom: 0.5rem double orangered;
-   
 }
 
 .one, .two, .three{
-    border: 0.5rem double orangered ;
-    border-radius: 10%;
     text-align: center;
 }
 
 .kiosk img{
-    width: 70%;
-    height: 30%;
+    width: 20rem;
 }
 
 .kiosk{
     display: flex;
     align-items: center;
-    margin: 5rem;
-    margin-top: 2rem;
     gap: 10rem;
-    width: 85%;
     text-align: center;
-    color: navy;
-    border: 5px double orangered;
+    color: white;
     flex-direction: row-reverse;
+    background: url(./assets/Landing\ image\ -\ ANZEL.jpg);
 }
 
 .para{
+    width: 60%;
+    height: 90%;
+    padding: 1rem;
+    font-size: larger;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+
+.p_one {
+    text-align: justify;
+    align-self: self-start;
+    width: 30%;
+}
+
+.p_two {
+    text-align: justify;
     width: 45%;
-    font-size: xx-large;
+    align-self: self-end;
 }
 
 hr.last{
@@ -119,7 +128,6 @@ hr{
     display: flex;
     flex-direction: column;
     gap: 3rem;
-    
 }
 
 .about_us h2{
@@ -132,7 +140,8 @@ hr{
 }
 
 .team{
-    color: navy;
+    color: white;
+    background-image: url(./assets/Landing\ image\ -\ ANZEL.jpg);
 }
 
 .siwes_home{
@@ -144,4 +153,8 @@ hr{
     align-items: center;
     justify-content: center;
     padding: 1rem;
+}
+
+.team h2{
+    color: white;
 }
