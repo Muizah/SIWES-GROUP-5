@@ -158,3 +158,94 @@ hr{
 .team h2{
     color: white;
 }
+
+footer{
+    display: flex;
+    justify-content: center;
+    color: orangered;
+}
+
+@media screen and (max-width: 885px){
+    header a {
+        margin-right: 1rem;
+    }
+
+    .left_side h2{
+        font-size: 16px; 
+    }
+
+    .siwes_home{
+        padding: 0.2rem;
+    }
+
+    header a{
+        font-size: 12px; 
+    }
+
+    .right_side{
+        display: block;
+    }
+
+    header{
+        gap: 2rem;
+    }
+
+    .kiosk img{
+        width: 15rem;
+    }
+
+    .para{
+        display: flex;
+        gap: 2rem;
+        width: auto;
+    }
+
+    .p_one, .p_two{
+        width: auto;
+        font-size: small;
+    }
+
+    .kiosk{
+        flex-direction: column-reverse;
+        gap: 3rem;
+    }
+
+    .about_us{
+        margin: 2rem 0.2rem;
+    }
+
+    .about_us h2{
+        margin-bottom: 0.5rem;
+    }
+
+    .paras p{
+        width: 85%;
+    }
+
+    .paras{
+        font-size: larger;
+        gap: 1rem;
+    }
+
+    .team h2{
+        margin-top: 1rem;
+        margin-bottom: 1rem;
+    }
+
+    .images{
+        flex-direction: column;
+        margin-bottom: 2rem;
+    }
+
+    .one, .two, .three{
+        margin-bottom: 1rem;
+    }
+
+    footer{
+        display: flex;
+        justify-content: center;
+        color: orangered;
+    }
+}
+
+
