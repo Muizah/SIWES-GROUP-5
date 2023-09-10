@@ -72,7 +72,7 @@ header img{
 }
 
 .kiosk img{
-    width: 20rem;
+    width: 10rem;
 }
 
 .kiosk{
@@ -83,6 +83,14 @@ header img{
     color: white;
     flex-direction: row-reverse;
     background: url(./assets/Landing\ image\ -\ ANZEL.jpg);
+}
+
+.kiosk_imgs{
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+    margin-top: 3rem;
+    margin-right: 10rem;
 }
 
 .para{
@@ -191,7 +199,12 @@ footer{
     }
 
     .kiosk img{
-        width: 15rem;
+        width: 12rem;
+    }
+
+    .kiosk_imgs{
+        margin-top: 0;
+        margin-right: 0;
     }
 
     .para{
