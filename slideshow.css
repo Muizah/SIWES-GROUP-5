@@ -24,10 +24,60 @@ body{
 }
 
 footer {
-    color: navy;
+    color: white;
     position: fixed;
     bottom: 0;
     width: 100%;
     display: flex;
     justify-content: center;
 }  
+
+header{
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem;
+    align-items: center;
+}
+
+header a{
+    color: white;
+    text-decoration: none;
+    margin-right: 2rem;
+}
+
+.left_side{
+    display: flex;
+    align-items: center;
+}
+
+.right_side{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.left_side h2{
+    color: orangered;
+}
+
+header img{
+    width: 5rem;
+    height: 5rem;
+}  
+
+.about_us h2, .team h2{
+    margin-bottom: 2rem;
+    text-align: center;
+    color: navy;
+    font-size: xx-large;
+}
+
+.about_us{
+    margin: 3.5rem;
+}
+
+.about_us p{
+    margin-top: 0.5rem;
+
+}
