@@ -171,6 +171,49 @@ footer{
     display: flex;
     justify-content: center;
     color: orangered;
+    margin-top: 1rem;
+}
+
+#product{
+    color: navy;
+    text-align: center;
+    padding: 1.5rem 0;
+}
+
+#product a{
+    color: orangered;
+    text-decoration: none;
+}
+
+#product a:hover{
+    text-decoration: underline;
+}
+
+.contact{
+    display: flex;
+    flex-direction: column;
+    color: navy;
+    padding: 1.5rem 0;
+    font-size: large;
+    align-items: center;
+}
+
+.subs{
+    display: flex;
+   margin: 1.3rem 0;
+   justify-content: space-around;
+}
+
+.paraone{
+    width: 25%;
+}
+
+.paratwo{
+    width: 30%;
+}
+
+.contact h2, .contact h3{
+    color: orangered;
 }
 
 @media screen and (max-width: 885px){
